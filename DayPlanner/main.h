@@ -26,7 +26,10 @@ public:
 		return ADDED_SPACES;
 	}
 private:
+	//constant string of the program's main text that will be outputted regardless of the method executed
 	const std::string MAIN_TEXT = "* Day Planner / Scheduler *";
+	//constant integer equalling the number of characters present within the main text string divided by four
 	const int NUMBER_OF_CHAR = (MAIN_TEXT.size()/4);
+	//initialising the added spaces text as empty
 	std::string ADDED_SPACES = "";
 };
