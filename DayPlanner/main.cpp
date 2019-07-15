@@ -1,4 +1,6 @@
 #include <iostream>
+#include <string>
+#include <conio.h>
 #include "main.h"
 
 int main()
@@ -8,6 +10,8 @@ int main()
 
 	//Execute main menu
 	PlanInit.MainMenu();
+
+	
 
 	//Returns nil
 	return 0;
